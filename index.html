@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="wclassth=device-wclassth, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container mt-5" style="border: 2px solid #8ec640">
+      <div class="main_heading">
+        <h3 class="text-center mt-1">Awesome</h3>
+      </div>
+      <div class="d-flex justify-content-center align-items-center flex-column">
+        <hr class="mb-0 bold_line" width="15%" align="center" />
+        <hr class="mt-0" width="85%" align="center" />
+      </div>
+
+      <div
+        class="mb-3 card card-hover d-flex justify-content-between align-items-start flex-lg-row flex-md-column"
+      >
+        <div class="left-container ms-2 mt-2 mb-0">
+          <!--    <div class="table_heading w-100 bg-secondary">
+            <h4>vegetables</h4>
+          </div> -->
+          <table class="table mt-0 table-bordered table-hover">
+            <thead
+              style="
+                background-color: #8ec640 !important;
+                color: white;
+                font-size: 20px;
+              "
+            >
+              <tr class="table_veg">
+                <th class="col" colspan="12">Vegetables</th>
+              </tr>
+            </thead>
+            <thead>
+              <tr>
+                <th scope="col">Product</th>
+                <th scope="col">Price</th>
+                <th scope="col">Qty</th>
+                <th scope="col">Unit</th>
+                <th scope="col">Notes</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider ">
+              <tr class="table-light">
+                <td scope="row">Button Mushroom</td>
+                <td>₹30</td>
+                <td>1</td>
+                <td>Pc</td>
+                <td>200gm</td>
+                <td><input type="button" class="btn" value="Add to List" /></td>
+              </tr>
+            </tbody>
+
+            <tbody class="table-group-divider ">
+              <tr class="table-light">
+                <td scope="row">Oyster Mushroom</td>
+                <td>₹20</td>
+                <td>1</td>
+                <td>Pc</td>
+                <td>100gm</td>
+                <td><input type="button" class="btn" value="Add to List" /></td>
+              </tr>
+            </tbody>
+
+            <tbody class="table-group-divider ">
+              <tr class="table-light">
+                <td scope="row">Red Yellow Capsicum</td>
+                <td>₹180</td>
+                <td>1</td>
+                <td>Kg</td>
+                <td></td>
+                <td><input type="button" class="btn" value="Add to List" /></td>
+              </tr>
+            </tbody>
+
+            <tbody class="table-group-divider ">
+              <tr class="table-light">
+                <td scope="row">Green Capsicum</td>
+                <td>₹50</td>
+                <td>1</td>
+                <td>Kg</td>
+                <td></td>
+                <td><input type="button" class="btn" value="Add to List" /></td>
+              </tr>
+            </tbody>
+
+            <tbody class="table-group-divider">
+              <tr class="table-light">
+                <td scope="row">Cow Milk</td>
+                <td>₹50</td>
+                <td>1</td>
+                <td>Lt</td>
+                <td></td>
+                <td><input type="button" class="btn" value="Add to List" /></td>
+              </tr>
+            </tbody>
+
+            <tbody class="table-group-divider ">
+              <tr class="table-light">
+                <td scope="row">Cow Ghee</td>
+                <td>₹700</td>
+                <td>1</td>
+                <td>Lt</td>
+                <td></td>
+                <td><input type="button" class="btn" value="Add to List" /></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="right-container text-center ms-2">
+          <p>
+            <span class="wd"> Your List </span
+            ><span class="sp">(Min.Order Value = ₹ 300)</span>
+          </p>
+          <p id="spp">Total price: ₹ 0</p>
+          <input type="button" value="Clear Cart" class="buton" />
+          <h5 class="mt-1">
+            <span
+              >Please <a class="an" href="#">login</a> or
+              <a class="an" href="#">register</a> yourself first to place
+              orders.</span
+            >
+          </h5>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
